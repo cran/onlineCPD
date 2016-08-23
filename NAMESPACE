@@ -1,0 +1,10 @@
+exportPattern("^[[:alpha:]]+")
+S3method(print,oCPD)
+S3method(plot,oCPD)
+S3method(summary,oCPD)
+S3method(str,oCPD)
+
+import(ggplot2)
+importFrom(scales,log_trans)
+importFrom(gridExtra,grid.arrange)
+importFrom(reshape2,melt)
